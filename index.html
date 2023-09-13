@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Progress Bar WebComponent Demo</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section class="title">
+      <h1>Progress Bar WebComponent Demo</h1>
+    </section>
+    <section class="app">
+      <div class="demo section-1">
+        <input id="demoInput1" type="number" max="100" min="0" value="25" />
+        <progress-bar id="progressBar1" percent="25"></progress-bar>
+      </div>
+      <div class="demo section-2">
+        <input id="demoInput2" type="number" max="100" min="0" value="50" />
+
+        <progress-bar
+          id="progressBar2"
+          bar-color="#fbad23"
+          bg-color="#e9ecef"
+          text-color="#000000"
+          percent="50"
+        ></progress-bar>
+      </div>
+      <div class="demo section-3">
+        <input id="demoInput3" type="number" max="100" min="0" value="80" />
+
+        <progress-bar
+          id="progressBar3"
+          bar-color="#23a72e"
+          bg-color="#ffffff"
+          text-color="#ffffff"
+          percent="80"
+        ></progress-bar>
+      </div>
+    </section>
+    <script src="./progress-bar.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
