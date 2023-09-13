@@ -2,6 +2,8 @@
 
 This is a custom HTML element called `progress-bar` that you can use to display a progress bar on your web page. This progress bar can be customized with different attributes to control its appearance. Below, you'll find information on how to use and customize the `progress-bar` element.
 
+![Progress Bar Web Component](./cover.png "Progress Bar Web Component")
+
 ## Usage
 
 To use the `progress-bar` element, include it in your HTML code like this:
