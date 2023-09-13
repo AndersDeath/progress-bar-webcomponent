@@ -41,6 +41,9 @@ The `progress-bar` element is implemented as a custom HTML element using JavaScr
 
 If you wish to customize the behavior or appearance of the `progress-bar` element further, you can modify the JavaScript code provided in the `ProgressBar` class.
 
+## Demo
+
+* https://andersdeath.github.io/progress-bar-webcomponent/
 ## Compatibility
 
 Please note that custom HTML elements like `progress-bar` may not be fully supported in all web browsers. Before using this element, make sure to check for browser compatibility or consider using a polyfill for older browsers.
